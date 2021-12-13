@@ -79,12 +79,12 @@ class Bed extends StatelessWidget {
                 child: RaisedButton(
                   onPressed: () {
                     Navigator.push(
-                        context, MaterialPageRoute(builder: (_) => Products()));
+                        context, MaterialPageRoute(builder: (_) => const Products()));
                   },
                   color: Colors.brown,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10)),
-                  child: Text("BUYNOW",
+                  child: const Text("BUYNOW",
                       style: TextStyle(color: Colors.white, fontSize: 16)),
                 ),
               ),
