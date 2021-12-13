@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:furniture_app/screens/products.dart';
 
-class Chair extends StatelessWidget {
-  const Chair({Key? key}) : super(key: key);
+class Bed extends StatelessWidget {
+  const Bed({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class Chair extends StatelessWidget {
                 height: 20,
               ),
               const Text(
-                'Wood Dining Chair',
+                'Wood King Box Bed',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 30,
@@ -39,32 +39,32 @@ class Chair extends StatelessWidget {
                   scrollDirection: Axis.horizontal,
                   children: [
                     Container(
-                      child: Image.asset('assets/chairs.jpeg'),
+                      child: Image.asset('assets/bed.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs2.jpeg'),
+                      child: Image.asset('assets/bed2.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs3.jpeg'),
+                      child: Image.asset('assets/bed3.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs4.jpeg'),
+                      child: Image.asset('assets/bed4.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs5.jpeg'),
+                      child: Image.asset('assets/bed5.jpeg'),
                     ),
                   ],
                 ),
               ),
               const Text(
-                'Material: Solid Wood Number of Chairs: 2 W x H x D: 469.9 mm x 914.4 mm x 457.2 mm (1 ft 6 in x 3 ft x 1 ft 6 in) Pre Assembled (Ready to Use)',
+                'Bed Material Subtype: Particle Board W x H x D: 186 cm x 90 cm x 211 cm (6 ft 1 in x 2 ft 11 in x 6 ft 11 in Storage Type: Box Recommended Mattress Size: Length : 78 inches , Breadth : 72 inches Delivery Condition: Knock Down - Delivered in non-assembled pieces, installation by service partner',
                 style: TextStyle(fontSize: 16),
               ),
               const SizedBox(
                 height: 20,
               ),
               const Text(
-                '₹7,950',
+                '₹16,090',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 28,

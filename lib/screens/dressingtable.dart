@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:furniture_app/screens/products.dart';
 
-class Chair extends StatelessWidget {
-  const Chair({Key? key}) : super(key: key);
+class DressingTable extends StatelessWidget {
+  const DressingTable({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class Chair extends StatelessWidget {
                 height: 20,
               ),
               const Text(
-                'Wood Dining Chair',
+                'Wood Dressing Table',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 30,
@@ -39,32 +39,32 @@ class Chair extends StatelessWidget {
                   scrollDirection: Axis.horizontal,
                   children: [
                     Container(
-                      child: Image.asset('assets/chairs.jpeg'),
+                      child: Image.asset('assets/dressingtable.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs2.jpeg'),
+                      child: Image.asset('assets/dressingtable2.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs3.jpeg'),
+                      child: Image.asset('assets/dressingtable3.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs4.jpeg'),
+                      child: Image.asset('assets/dressingtable4.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs5.jpeg'),
+                      child: Image.asset('assets/dressingtable5.jpeg'),
                     ),
                   ],
                 ),
               ),
               const Text(
-                'Material: Solid Wood Number of Chairs: 2 W x H x D: 469.9 mm x 914.4 mm x 457.2 mm (1 ft 6 in x 3 ft x 1 ft 6 in) Pre Assembled (Ready to Use)',
+                'Storage Included W x H x D: 70 cm x 180.5 cm x 37.7 cm (2 ft 3 in x 5 ft 11 in x 1 ft 2 in) Mirror W x H: 435 mm x 1265 mm Finish Type: Wood Foil | Finish Color: Imperial Teak Knock Down - Delivered in non-assembled pieces, installation by service partner',
                 style: TextStyle(fontSize: 16),
               ),
               const SizedBox(
                 height: 20,
               ),
               const Text(
-                '₹7,950',
+                '₹10,390',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 28,

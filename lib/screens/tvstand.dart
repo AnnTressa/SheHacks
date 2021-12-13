@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:furniture_app/screens/products.dart';
 
-class Chair extends StatelessWidget {
-  const Chair({Key? key}) : super(key: key);
+class Tvstand extends StatelessWidget {
+  const Tvstand({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class Chair extends StatelessWidget {
                 height: 20,
               ),
               const Text(
-                'Wood Dining Chair',
+                'Wood TV Entertainment Unit',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 30,
@@ -39,32 +39,32 @@ class Chair extends StatelessWidget {
                   scrollDirection: Axis.horizontal,
                   children: [
                     Container(
-                      child: Image.asset('assets/chairs.jpeg'),
+                      child: Image.asset('assets/tvstand.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs2.jpeg'),
+                      child: Image.asset('assets/tvstand2.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs3.jpeg'),
+                      child: Image.asset('assets/tvstand3.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs4.jpeg'),
+                      child: Image.asset('assets/tvstand4.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs5.jpeg'),
+                      child: Image.asset('assets/tvstand5.jpeg'),
                     ),
                   ],
                 ),
               ),
               const Text(
-                'Material: Solid Wood Number of Chairs: 2 W x H x D: 469.9 mm x 914.4 mm x 457.2 mm (1 ft 6 in x 3 ft x 1 ft 6 in) Pre Assembled (Ready to Use)',
+                'Material: Particle Board W x H x D: 116 cm x 60 cm x 39 cm (3 ft 9 in x 1 ft 11 in x 1 ft 3 in) Ideal TV Size: 43 inch Number of Drawers: 0, Number of Open Shelves: 6, Number of Closed Shelves: 4',
                 style: TextStyle(fontSize: 16),
               ),
               const SizedBox(
                 height: 20,
               ),
               const Text(
-                '₹7,950',
+                '₹5,790',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 28,

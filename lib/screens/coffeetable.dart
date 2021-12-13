@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:furniture_app/screens/products.dart';
 
-class Chair extends StatelessWidget {
-  const Chair({Key? key}) : super(key: key);
+class CoffeeTable extends StatelessWidget {
+  const CoffeeTable({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class Chair extends StatelessWidget {
                 height: 20,
               ),
               const Text(
-                'Wood Dining Chair',
+                'Wood Coffee Table',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 30,
@@ -39,32 +39,32 @@ class Chair extends StatelessWidget {
                   scrollDirection: Axis.horizontal,
                   children: [
                     Container(
-                      child: Image.asset('assets/chairs.jpeg'),
+                      child: Image.asset('assets/coffeetable.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs2.jpeg'),
+                      child: Image.asset('assets/coffeetable2.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs3.jpeg'),
+                      child: Image.asset('assets/coffeetable3.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs4.jpeg'),
+                      child: Image.asset('assets/coffeetable4.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs5.jpeg'),
+                      child: Image.asset('assets/coffeetable5.jpeg'),
                     ),
                   ],
                 ),
               ),
               const Text(
-                'Material: Solid Wood Number of Chairs: 2 W x H x D: 469.9 mm x 914.4 mm x 457.2 mm (1 ft 6 in x 3 ft x 1 ft 6 in) Pre Assembled (Ready to Use)',
+                'Mango Wood Solid Wood W x H x D: 30.5 cm x 30.5 cm x 30.5 cm (1 ft x 1 ft x 1 ft) Pre Assembled (Ready to Use)',
                 style: TextStyle(fontSize: 16),
               ),
               const SizedBox(
                 height: 20,
               ),
               const Text(
-                '₹7,950',
+                '₹420',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 28,

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:furniture_app/screens/products.dart';
 
-class Chair extends StatelessWidget {
-  const Chair({Key? key}) : super(key: key);
+class Diningset extends StatelessWidget {
+  const Diningset({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -23,7 +23,7 @@ class Chair extends StatelessWidget {
                 height: 20,
               ),
               const Text(
-                'Wood Dining Chair',
+                'Wood Dining Set',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 30,
@@ -39,32 +39,32 @@ class Chair extends StatelessWidget {
                   scrollDirection: Axis.horizontal,
                   children: [
                     Container(
-                      child: Image.asset('assets/chairs.jpeg'),
+                      child: Image.asset('assets/diningset.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs2.jpeg'),
+                      child: Image.asset('assets/diningset2.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs3.jpeg'),
+                      child: Image.asset('assets/diningset3.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs4.jpeg'),
+                      child: Image.asset('assets/diningset4.jpeg'),
                     ),
                     Container(
-                      child: Image.asset('assets/chairs5.jpeg'),
+                      child: Image.asset('assets/diningset5.jpeg'),
                     ),
                   ],
                 ),
               ),
               const Text(
-                'Material: Solid Wood Number of Chairs: 2 W x H x D: 469.9 mm x 914.4 mm x 457.2 mm (1 ft 6 in x 3 ft x 1 ft 6 in) Pre Assembled (Ready to Use)',
+                'Table Top Material: Solid Wood Chair Frame: Solid Wood Table (W x H x D): 100 cm x 73 cm x 101 cm (3 ft 3 in x 2 ft 4 in x 3 ft 3 in) Seating Capacity: 4 Seater Delivery Condition: Knock Down - Delivered in non-assembled pieces, installation by service partner',
                 style: TextStyle(fontSize: 16),
               ),
               const SizedBox(
                 height: 20,
               ),
               const Text(
-                '₹7,950',
+                '₹19,359',
                 style: TextStyle(
                     fontWeight: FontWeight.bold,
                     fontSize: 28,
